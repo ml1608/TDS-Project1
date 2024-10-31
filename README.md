@@ -1,15 +1,16 @@
-# TDS-Project1
-# GitHub Users and Repositories in Sydney
+# GitHub Users in Delhi
 
-- This project scrapes GitHub users from Sydney with over 100 followers and their repositories.
-- The analysis reveals trends in user engagement and repository activity among Sydney developers.
-- Developers are encouraged to actively engage with their repositories to attract more followers and job opportunities.
+This repository contains data about GitHub users in Delhi with over 100 followers and their repositories.
 
-## Data Analysis
-The dataset provides insights into user profiles and repository statistics, highlighting the importance of active contributions.
+## Files
 
-## Interesting Findings
-Many active users have a significant number of public repositories, which correlates with higher follower counts.
+1. `users.csv`: Contains information about 422 GitHub users in Delhi with over 100 followers
+2. `repositories.csv`: Contains information about 29760 public repositories from these users
+3. `gitscrap.py`: Python script used to collect this data
 
-## Recommendations
-Developers should focus on maintaining and contributing to their repositories to enhance their visibility and engagement within the community.
+## Data Collection
+
+- Data collected using GitHub API
+- Date of collection: 2024-10-23
+- Only included users with 100+ followers
+- Up to 500 most recently pushed repositories per user
