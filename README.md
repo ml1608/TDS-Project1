@@ -1,4 +1,4 @@
-# GitHub Users in Delhi
+# GitHub Users in Sydney
 
 This repository contains data about GitHub users in Sydney with over 100 followers and their repositories.
 
